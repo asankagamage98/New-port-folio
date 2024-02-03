@@ -1,12 +1,12 @@
 
-// import "./assets/css/bootstrap.css"
+
 import { Routes, Route } from "react-router-dom"
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
 function App() {
 
   return (
-    <div className="container">
+    <div className="row m-0 p-0">
        <NavBar />
        <Routes>
          <Route path="/" element={<Home/>}/>
