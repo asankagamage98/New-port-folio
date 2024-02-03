@@ -6,10 +6,12 @@ import "../../src/assets/css/public.css";
 import "../../src/assets/css/navbar.css";
 import SocialIcons from './SocialIcons';
 
+
+
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="" expand="md" variant="light" className='row '>
+      <Navbar bg="" expand="md" variant="light" className='row navbar '>
         <Container fluid>
           <div  className='col-lg-3  '>
             <Navbar.Brand href="#home" ></Navbar.Brand> 
@@ -25,7 +27,7 @@ export default function NavBar() {
             </Nav>
           </Navbar.Collapse>
           <div className='col-lg-3  d-flex justify-content-center'>
-                <SocialIcons/>        
+                <SocialIcons />        
           </div>
         </Container>
       </Navbar>

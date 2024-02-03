@@ -33,7 +33,7 @@ export default function Home() {
                         </ul>
                     </div>
                     <div>
-                         <button type="button" className='primaryBtm '>View CV</button>
+                         <button type="button col-md-justify-content-center" className='primaryBtm '>View CV</button>
                     </div>
                 </div>
             </Col> 
@@ -44,8 +44,9 @@ export default function Home() {
                 </div>
             </Col> */}
              <Col  className='' lg={5} md={12}>
-                
-                     <Image src={img} rounded className=' background-image ' />
+                <div className='zoom-wrapper'>
+                    <img src={img}  className=' background-image ' />
+                </div>
                
             </Col>
         </Row>
