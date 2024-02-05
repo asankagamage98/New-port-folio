@@ -8,6 +8,9 @@ import ProjectCard from '../components/cards/ProjectCard';
 const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
 export default function Projects() {
+
+ 
+
   return (
     <Container>
       <Row>
@@ -17,17 +20,17 @@ export default function Projects() {
       </Row>
       
        <Row>
-        <Col lg-12 >
+        <Col lg={12}>
             <div className='text-center '>
                 <button type="button " className='primaryBtm '>Acadamic</button>
                 <button type="button " className='primaryBtm ms-2'>Industry</button>
             </div>
           </Col>
       </Row>
-      <Row className='pb-5'>
-        <Col className='d-flex justify-content-center gap-5 flex-wrap pt-4'>
+      <Row className='pb-5' lg={12}>
+        <Col className='d-flex justify-content-center gap-4 flex-wrap pt-4'>
             <ProjectCard/>
-        </Col>
+        </Col> 
           
       </Row>
     </Container>

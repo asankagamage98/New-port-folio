@@ -25,8 +25,8 @@ export default function Home() {
                         <p  className='p2'>I am <span style={{ color: primaryColor }}>Asanka Madhushan Gamage.</span> </p>
                         <p className='p3'>Graduated BSc.(Hons) Information Technology  Special  Information<br/> Technology at  SLIIT.</p>
                     </div>
-                    <div class="wrapper_second">
-                        <ul class="dynamic-txts">
+                    <div className="wrapper_second">
+                        <ul className="dynamic-txts">
                         <li><span>Mobile app Developer</span></li>
                         <li><span>Designer</span></li>
                         <li><span>Web application Developer</span></li>
