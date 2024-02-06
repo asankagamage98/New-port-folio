@@ -63,4 +63,4 @@ jobs:
           app-name: 'asankagamage'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_05157B2C300E40E08C42AD40230F438D }}
-          package: .release.zip #(added release.zip)
+          package: release.zip #(added release.zip)
