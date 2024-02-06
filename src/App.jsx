@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="row m-0 p-0">
-       <NavBar />
+       <NavBar className="fixed"/>
        <Routes>
          <Route path="/" element={<Home/>}/>
          <Route path="/about" element={<About/>}/>

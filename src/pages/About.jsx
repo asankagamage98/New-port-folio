@@ -13,25 +13,42 @@ export default function About() {
     <Container>
       <Row>
           
-          <Col lg={6} md={12} className=''>
+          <Col lg={8} md={12} className=''>
                 <Col lg={12} className='pt-4 ps-5'>
-                    <h1 style={{ color: primaryColor }}>About me</h1>
+                    {/* <h1 style={{ color: primaryColor }}>About me</h1> */}
                 </Col>
                 <Col lg={12} className='pt-3 ps-5'>
-                  <div className="box1 p-5">
-                      <p>
-                        🚀 Full Stack Developer | JavaScript Enthusiast | BSc (Hons) in Information Technology
+                  <div className="box1 p-4  mb-5">
+                      <h1 style={{ color: primaryColor }}>About me</h1>
 
-                        🎓 Proud graduate of SLIIT, specializing in Information Technology. I hold a BSc (Hons) degree, where I honed my skills and acquired a strong foundation in IT.
+                      <p className='mt-3'> 
+                      🚀 Dedicated Full Stack Developer with a passion for creating impactful 
+                      digital experiences. Armed with a BSc (Hons) degree in Information 
+                      Technology from SLIIT, I've honed my skills and embraced a continuous 
+                      learning journey. During a transformative internship at Ceylon Petroleum 
+                      Storage Terminals LTD, I gained hands-on experience as a Software Engineer
+                       Intern, translating theory into practical solutions.<br/>
 
-                        🛢️ During my academic journey, I completed a six-month internship as a Software Engineer Intern at Ceylon Petroleum Storage Terminals LTD. This invaluable experience allowed me to apply theoretical knowledge to real-world projects, shaping me into a versatile and hands-on developer.
+                      💻 Specializing in Laravel and proficient in JavaScript technologies 
+                      like ReactJS, NodeJS, and VueJS, I bring a comprehensive approach to 
+                      web development. Crafting clean and efficient code, I prioritize
+                       user-centric design, ensuring seamless functionality. My commitment
+                        extends beyond code, aiming to contribute positively to the ever-changing
+                        tech landscape.<br/>
+
+                      🌐 Whether it's developing robust web applications, designing
+                       intuitive user interfaces, or exploring innovative solutions, 
+                       I thrive on challenges. Eager to collaborate on exciting projects 
+                       and engage with fellow tech enthusiasts, I'm open to new opportunities 
+                       and discussions on tech, innovation, or potential collaborations.
+                        Let's connect and explore the possibilities in the world of technology! 
                       </p>
                   </div>
                    
                 </Col>
                 
           </Col>
-          <Col lg={6} md={12}  className='text-center'>
+          <Col lg={4} md={12}  className='text-center'>
             
                 <div className='zoom-wrapper '>
                     <img src={img}  className='about-image' />

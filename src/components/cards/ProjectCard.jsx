@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import { ProjectList } from '../../dummyData';
 import ProjectModel from '../model/ProjectModel';
 
-export default function ProjectCard() {
+export default function ProjectCard({acadmicProjects = ProjectList}) {
   const [modalShow, setModalShow] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -14,7 +14,7 @@ export default function ProjectCard() {
 
   return (
     <>
-      {ProjectList?.map((item, idx) => (
+      {acadmicProjects?.map((item, idx) => (
         <div key={item.id} style={{ overflow: "hidden", padding: "20px" }}>
           <Card
             className='box1 Projectcard zoom-wrapper'

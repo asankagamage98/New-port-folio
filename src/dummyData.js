@@ -73,7 +73,7 @@ export const ProjectList =[
       {
          id:"6",
         name: " E-channeling system ",
-        type:"academic",
+        type:"industry",
         image: "/src/assets/images/cardImages/hos.png",
         technology:"",
         gitLink:"",
@@ -83,7 +83,7 @@ export const ProjectList =[
       {
          id:"7",
         name: " Prezz Online presentation system",
-        type:"academic",
+        type:"industry",
         image: "/src/assets/images/cardImages/prezz.png",
         technology:"",
         gitLink:"",
