@@ -28,13 +28,13 @@ jobs:
           npm run test --if-present
 
         #zip the build directory (new added sector)
-        - name: Zip Release
-          uses: TheDoctor0/zip-release@0.7.6
-          with:
-            # Filename for archive
-            filename: release.zip
-            # Base path for archive files
-            path: ./dist/*    
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.7.6
+        with:
+          # Filename for archive
+          filename: release.zip
+          # Base path for archive files
+          path: ./dist/*    
           
         #----------------------
       - name: Upload artifact for deployment job
