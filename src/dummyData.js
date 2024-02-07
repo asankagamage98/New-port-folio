@@ -1,18 +1,34 @@
+import smsImage from "./assets/Images/cardImages/sms.png"
+import electImage from "./assets/images/cardImages/elect.png"
+import shilpaImage from "./assets/images/cardImages/shilpa.png"
+import unilifeImage from "./assets/images/cardImages/unilife.png"
+import hosImage from "./assets/images/cardImages/hos.png"
+import prezzImage from "./assets/images/cardImages/prezz.png"
+import nieImage from "./assets/images/cardImages/nie.png"
+
+// import smsImage from "./assets/Images/cardImages/sms.png"
+// import smsImage from "./assets/Images/cardImages/sms.png"
+
+
+
+
+
 export const carasolImages =[
+  
   {
     id:1,
     title:"2023 Graduation ",
-    image:"/src/assets/images/carasolImages/graduate"
+    image:"../assets/images/carasolImages/graduate"
   },
   {
     id:2,
     title:"",
-    image:"/src/assets/images/cardImages/sms.png"
+    image:"../assets/images/cardImages/sms.png"
   },
   {
     id:3,
     title:"",
-    image:"/src/assets/images/cardImages/elect.png"
+    image:"../assets/images/cardImages/elect.png"
   }
 
 ]
@@ -24,7 +40,7 @@ export const ProjectList =[
         id:"1",
         name: "School Management System",
         type:"academic",
-        image: "/src/assets/images/cardImages/sms.png",
+        image: smsImage,
         technology:"",
         gitLink:"",
         description:
@@ -34,7 +50,7 @@ export const ProjectList =[
         id:"2",
         name: "Electrogird system",
         type:"academic",
-        image: "/src/assets/images/cardImages/elect.png",
+        image: electImage,
         technology:"",
         gitLink:"",
         description:
@@ -44,7 +60,7 @@ export const ProjectList =[
         id:"3",
         name: "Education institute management system",
         type:"academic",
-        image: "/src/assets/images/cardImages/shilpa.png",
+        image: shilpaImage,
         technology:"",
         gitLink:"",
         description:
@@ -54,7 +70,7 @@ export const ProjectList =[
          id:"4",
         name: "UniLife mobile application",
         type:"academic",
-        image: "/src/assets/images/cardImages/unilife.png",
+        image: unilifeImage,
         technology:"",
         gitLink:"",
         description:
@@ -64,7 +80,7 @@ export const ProjectList =[
          id:"5",
         name: "Re designed NIE website",
         type:"academic",
-        image: "/src/assets/images/cardImages/nie.png",
+        image: nieImage,
         technology:"",
         gitLink:"",
         description:
@@ -74,7 +90,7 @@ export const ProjectList =[
          id:"6",
         name: " E-channeling system ",
         type:"industry",
-        image: "/src/assets/images/cardImages/hos.png",
+        image: hosImage,
         technology:"",
         gitLink:"",
         description:
@@ -84,7 +100,7 @@ export const ProjectList =[
          id:"7",
         name: " Prezz Online presentation system",
         type:"industry",
-        image: "/src/assets/images/cardImages/prezz.png",
+        image: prezzImage,
         technology:"",
         gitLink:"",
         description:
