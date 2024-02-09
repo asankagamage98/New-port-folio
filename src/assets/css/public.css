@@ -123,12 +123,13 @@
   
 }
 
-.Projectcard{
+.Projectcard1{
   width:500px;
   overflow: hidden;
 }
 
-
-.carasoul {
-
+.Projectcard2{
+  width:400px;
+  overflow: hidden;
 }
+

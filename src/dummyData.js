@@ -6,13 +6,6 @@ import hosImage from "./assets/images/cardImages/hos.png"
 import prezzImage from "./assets/images/cardImages/prezz.png"
 import nieImage from "./assets/images/cardImages/nie.png"
 
-// import smsImage from "./assets/Images/cardImages/sms.png"
-// import smsImage from "./assets/Images/cardImages/sms.png"
-
-
-
-
-
 export const carasolImages =[
   
   {

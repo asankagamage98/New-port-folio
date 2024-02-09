@@ -49,12 +49,12 @@ export default function Projects() {
             </div>
           </Col>
       </Row>
-      <Row className='pb-5' lg={12}>
-        <Col className='d-flex justify-content-center gap-4 flex-wrap pt-4'>
+      <Row className='pb-3' lg={12}>
+        <Col className='d-flex justify-content-center gap-4 flex-wrap pt-2  ' >
             <ProjectCard acadmicProjects={acadmicProjects}/>
         </Col> 
-          
       </Row>
+      
     </Container>
   )
 }

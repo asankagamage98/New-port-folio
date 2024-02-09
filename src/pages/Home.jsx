@@ -13,8 +13,6 @@ const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
 export default function Home() {
 
-  console.log('Primary Color:', primaryColor);
-
   return (
     <Container>
         <Row >
@@ -38,8 +36,8 @@ export default function Home() {
                     </div>
                 </div>
             </Col> 
-             <Col  className='' lg={5} md={12}>
-                <div className='zoom-wrapper'>
+             <Col className='text-center' lg={5} md={12}>
+                <div className='zoom-wrapper p-0 m-0'>
                     <img src={img}  className=' background-image ' />
                 </div>
                
