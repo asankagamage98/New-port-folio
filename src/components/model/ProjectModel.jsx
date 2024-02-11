@@ -36,10 +36,16 @@ export default function ProjectModel(props) {
                    </Col>
                 </Row>
                 <Row>
-                   <Col lg={12}>
+                   <Col lg={6}>
                       <h5>Use Technologies</h5>
                       <p>
                          {props.item?.technology}
+                      </p>
+                   </Col>
+                   <Col lg={6}>
+                      <h5>Use Tools</h5>
+                      <p>
+                         {props.item?.tools}
                       </p>
                    </Col>
                 </Row>

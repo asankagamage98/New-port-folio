@@ -133,3 +133,44 @@
   overflow: hidden;
 }
 
+.Projectcard3 {
+  width:360px;
+  overflow: hidden;
+}
+
+/* Show the first card on screens larger than or equal to 570 pixels */
+@media (min-width: 570px) {
+  .Projectcard1 {
+    display: flex !important;
+  }
+}
+
+/* Show the second card on screens between 467 and 569 pixels */
+@media (min-width: 467px) and (max-width: 569px) {
+  .Projectcard2 {
+    display: flex !important;
+  }
+}
+
+/* Show the third card on screens up to 466 pixels */
+@media (max-width: 466px) {
+  .Projectcard3 {
+    display: flex !important;
+  }
+}
+
+/* Hide the second card on screens larger than or equal to 570 pixels */
+@media (min-width: 570px), (max-width: 466px) {
+  .Projectcard2 {
+    display: none !important;
+  }
+}
+
+/* Hide the third card on screens larger than or equal to 467 pixels */
+@media (min-width: 467px) {
+  .Projectcard3 {
+    display: none !important;
+  }
+}
+
+

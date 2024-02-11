@@ -17,7 +17,7 @@ export default function ProjectCard({acadmicProjects = ProjectList}) {
       {acadmicProjects?.map((item, idx) => (
         <div key={item.id} style={{ overflow: "hidden", padding: "20px" }}>
           <Card
-            className='box1 Projectcard1 zoom-wrapper d-none d-md-flex flex-wrap justify-content-center m-0'
+            className='box1 Projectcard1 zoom-wrapper d-none d-md-flex  flex-wrap justify-content-center m-0'
             onClick={() => handleCardClick(item)}
           >
             <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />
@@ -31,7 +31,21 @@ export default function ProjectCard({acadmicProjects = ProjectList}) {
           </Card>
 
           <Card
-            className='box1 Projectcard2 zoom-wrapper d-md-none flex-wrap justify-content-center '
+            className='box1 Projectcard2 zoom-wrapper d-md-none d-sm-flex flex-wrap justify-content-center '
+            onClick={() => handleCardClick(item)}
+          >
+            <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />
+            <Card.Body
+              style={{ color: "",  fontWeight: "bolder", zIndex: "1000", backgroundColor: "#ffff" }}
+            >
+              <Card.Text className='text-center'>
+                {item.name}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card
+            className='box1 Projectcard3 zoom-wrapper d-md-none d-sm-flex flex-wrap justify-content-center '
             onClick={() => handleCardClick(item)}
           >
             <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />

@@ -6,25 +6,6 @@ import hosImage from "./assets/images/cardImages/hos.png"
 import prezzImage from "./assets/images/cardImages/prezz.png"
 import nieImage from "./assets/images/cardImages/nie.png"
 
-export const carasolImages =[
-  
-  {
-    id:1,
-    title:"2023 Graduation ",
-    image:"../assets/images/carasolImages/graduate"
-  },
-  {
-    id:2,
-    title:"",
-    image:"../assets/images/cardImages/sms.png"
-  },
-  {
-    id:3,
-    title:"",
-    image:"../assets/images/cardImages/elect.png"
-  }
-
-]
 
 
 export const ProjectList =[
@@ -34,17 +15,18 @@ export const ProjectList =[
         name: "School Management System",
         type:"academic",
         image: smsImage,
-        technology:"",
+        technology:"VueJS and NodeJS",
+        tools:"VS Code, Postman",
         gitLink:"",
         description:
-          "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.",
+          "The School Management System is a comprehensive web application designed to streamline various administrative tasks for school staff members. Developed by a team of four using Vue.js for the frontend and Node.js for the backend, this system offers efficient management of school resources and activities.",
       },
       {
         id:"2",
         name: "Electrogird system",
         type:"academic",
         image: electImage,
-        technology:"",
+        technology:"Java",
         gitLink:"",
         description:
           "The Electrogird system is a versatile platform designed for seamless management of various electrogird operations. From efficiently handling user accounts to managing bills, processing payments, and overseeing notifications, this system offers a comprehensive solution for streamlined and effective electrogird operations. With a user-friendly interface and robust functionalities, it ensures a smooth and organized workflow in the electrified grid ecosystem.",
