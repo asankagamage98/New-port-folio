@@ -18,7 +18,7 @@ export default function Contacts() {
     </Row>
     <Row>
       <Col lg={7}>
-          <h1>Contact me</h1>
+          {/* <h1>Contact me</h1> */}
       </Col>
       <Col lg={5}>
          <MailCard/>
