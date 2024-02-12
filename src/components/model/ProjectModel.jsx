@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 // import Container from 'react-bootstrap/Container';
+import "../../assets/css/projectModel.css";
 
 export default function ProjectModel(props) {
     return (
@@ -28,21 +29,21 @@ export default function ProjectModel(props) {
                         <h5 className='mt-3'>Project Details</h5>
                     </Col>
                 </Row>
-                <Row>
-                   <Col lg={12}>
+                <Row className=''>
+                   <Col lg={12} className="description-column">
                     <p>
                         {props.item?.description}
                     </p>
                    </Col>
                 </Row>
                 <Row>
-                   <Col lg={6}>
+                   <Col lg={6} className='mt-2'>
                       <h5>Use Technologies</h5>
                       <p>
                          {props.item?.technology}
                       </p>
                    </Col>
-                   <Col lg={6}>
+                   <Col lg={6} className='mt-2'>
                       <h5>Use Tools</h5>
                       <p>
                          {props.item?.tools}
