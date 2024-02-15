@@ -49,10 +49,11 @@ export const ProjectList =[
         name: "UniLife mobile application",
         type:"academic",
         image: unilifeImage,
-        technology:"",
+        technology:"Java,Sqlite,XML",
+        tools:"Android Studio, Postman",
         gitLink:"",
         description:
-          "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.",
+          "The UniLife app aims to enhance students' academic performance by providing tools to calculate GPA and organize academic responsibilities. Its main features include a GPA calculator, exam reminders, event reminders, and lecture reminders. Users can set GPA improvement goals and track their progress throughout the semester. Additionally, the app allows students to arrange their academic schedule, set reminders for lectures, exams, and special events, helping them stay on top of their academic commitments. Overall, UniLife streamlines the academic experience, promoting better organization and focus for students striving to excel in their studies.",
       },
       {
          id:"5",
@@ -60,29 +61,30 @@ export const ProjectList =[
         type:"academic",
         image: nieImage,
         technology:"",
+        tools:"Adobe XD",
         gitLink:"",
         description:
-          "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.",
+          "The project entails revamping the NIE website, plagued by usability issues like CRUD problems, poor color scheme, small font size, complex navigation, unappealing layout, data validation flaws, and lack of thematic consistency. This Sri Lankan Government-owned site serves teachers, students, and employers. After selecting NIE.lk from five options with issues, stakeholders were identified, and personas were crafted per the Gantt Chart plan. Usability testing involved three stakeholders to pinpoint existing issues. The goal is to rebuild the NIE website, addressing these challenges. The report will summarize the first four weeks, covering issue identification, stakeholder analysis, persona creation, and usability test findings.",
       },
       {
          id:"6",
         name: " E-channeling system ",
         type:"academic",
         image: hosImage,
-        technology:"",
+        technology:"HTML,CSS,Java",
         gitLink:"",
         description:
-          "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.",
+          "The online e-channeling system for private hospitals simplifies doctor and patient interactions. Doctors and patients can register, and patients can easily book appointments with their preferred physicians. The system, built using HTML, CSS, and Java, ensures seamless appointment scheduling, improving accessibility and efficiency in healthcare services.",
       },
       {
          id:"7",
         name: " Prezz Online presentation system",
         type:"academic",
         image: prezzImage,
-        technology:"",
+        technology:"HTML,CSS,PHP",
         gitLink:"",
         description:
-          "Filler text is text that shares some characteristics of a real written text, but is random or otherwise generated. It may be used to display a sample of fonts, generate text for testing, or to spoof an e-mail spam filter.",
+          "In our first-year second-semester project, a team of five members collaborated to develop a dynamic platform using HTML, CSS, and PHP. This project revolves around creating an online presentation tool, offering users the capability to generate presentations seamlessly. Through the integration of various web technologies, we aimed to provide an intuitive and user-friendly experience. With a focus on teamwork and leveraging multiple programming languages, our goal was to develop a robust system that empowers users to craft compelling presentations effortlessly.",
       },
       {
         id:"8",
