@@ -72,6 +72,7 @@ export const ProjectList =[
         type:"academic",
         image: hosImage,
         technology:"HTML,CSS,Java",
+        tools:"VS Code",
         gitLink:"",
         description:
           "The online e-channeling system for private hospitals simplifies doctor and patient interactions. Doctors and patients can register, and patients can easily book appointments with their preferred physicians. The system, built using HTML, CSS, and Java, ensures seamless appointment scheduling, improving accessibility and efficiency in healthcare services.",
@@ -82,6 +83,7 @@ export const ProjectList =[
         type:"academic",
         image: prezzImage,
         technology:"HTML,CSS,PHP",
+        tools:"VS Code,XAMPP",
         gitLink:"",
         description:
           "In our first-year second-semester project, a team of five members collaborated to develop a dynamic platform using HTML, CSS, and PHP. This project revolves around creating an online presentation tool, offering users the capability to generate presentations seamlessly. Through the integration of various web technologies, we aimed to provide an intuitive and user-friendly experience. With a focus on teamwork and leveraging multiple programming languages, our goal was to develop a robust system that empowers users to craft compelling presentations effortlessly.",
@@ -92,7 +94,7 @@ export const ProjectList =[
        type:"industry",
        image: tmmImage,
        technology:"ReactJS,Laravel",
-       tools:"VS Code, Postman,Selenium",
+       tools:"VS Code,Postman,Selenium",
        gitLink:"",
        description:
          "The Training Material Management System (TMMS) is a user-friendly platform designed to assist new trainees in gaining the necessary knowledge and skills for their roles within the company. Accessible from any web-enabled device, TMMS offers resources such as documents, guides, videos, notices, and policies tailored to each trainee's division. Users can also take practice tests to reinforce learning and identify areas for improvement. System administrators have full control over user management and content, ensuring information is up-to-date and relevant. Overall, TMMS aims to empower new trainees to succeed in their roles by providing comprehensive and accessible training resources.",
