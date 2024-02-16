@@ -1,4 +1,4 @@
 .description-column {
-    max-height: 150px; /* Adjust the value as per your requirement */
+    max-height: 100px; /* Adjust the value as per your requirement */
     overflow-y: auto; /* Add scrollbar if content exceeds max-height */
 }
