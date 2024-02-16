@@ -43,13 +43,13 @@ export default function Projects() {
       
        <Row>
         <Col lg={12}>
-            <div className='text-center '>
+            <div className='text-center pb-3'>
                 <button type="button " onClick={btnHandlerAc} className='primaryBtm '>Acadamic</button>
-                <button type="button " onClick={btnHandlerIn} className='primaryBtm ms-2'>Industry</button>
+                <button type="button " onClick={btnHandlerIn} className='primaryBtm ms-2'>Other</button>
             </div>
           </Col>
       </Row>
-      <Row className='pb-3' lg={12}>
+      <Row className='pb-3 vh-100 projectCrads' lg={12} >
         <Col className='d-flex justify-content-center gap-4 flex-wrap pt-2  ' >
             <ProjectCard acadmicProjects={acadmicProjects}/>
         </Col> 

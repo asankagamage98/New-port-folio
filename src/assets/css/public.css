@@ -168,3 +168,8 @@
 }
 
 
+.projectCrads{
+  max-height:410px;
+  overflow-y: auto;
+}
+
