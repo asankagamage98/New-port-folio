@@ -6,7 +6,7 @@ export default function SocialIcons() {
     const iconStyle = { color: '#1340DF' };
     const insta = { color: '#e74c3c' };
     const twitter = { color: '#3498db' };
-
+    const git ={color:"black"}
 
   return (
     <>
@@ -23,7 +23,7 @@ export default function SocialIcons() {
         <FaLinkedin style={iconStyle} className="mx-2" size={24} />
       </a>
       <a href='https://github.com/asankagamage98' target="_blank" rel="noopener noreferrer">
-        <FaGithub className="mx-2" size={24} />
+        <FaGithub className="mx-2" size={24} style={git}/>
       </a>
     </>
   )

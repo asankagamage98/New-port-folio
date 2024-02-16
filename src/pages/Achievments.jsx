@@ -9,7 +9,7 @@ export default function Achievments() {
   return (
     <Container >
         <Row>
-          <Col lg={12} className='pt-4 ps-5'>
+          <Col lg={12} className='pt-3 ps-5'>
             <h1 style={{ color: primaryColor }}>Achivements</h1>
           </Col>
         </Row>

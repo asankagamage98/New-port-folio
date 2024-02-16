@@ -14,9 +14,7 @@ export default function About() {
       <Row>
           
           <Col lg={8} md={12} className=''>
-                <Col lg={12} className='pt-4 ps-5'>
-                    {/* <h1 style={{ color: primaryColor }}>About me</h1> */}
-                </Col>
+                
                 <Col lg={12} className='pt-3 ps-5'>
                   <div className="box1 p-4  mb-5">
                       <h1 style={{ color: primaryColor }}>About me</h1>
