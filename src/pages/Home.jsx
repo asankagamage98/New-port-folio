@@ -21,7 +21,7 @@ export default function Home() {
                     <div  className='titles'>
                         <p className='p1'> Hi, Looking for a  developer !</p>
                         <p  className='p2'>I am <span style={{ color: primaryColor }}>Asanka Madhushan Gamage.</span> </p>
-                        <p className='p3'>Graduated BSc.(Hons) Information Technology  Special  Information<br/> Technology at  SLIIT.</p>
+                        <p className='p3'>Graduated BSc.(Hons) Information Technology  Specializing  Information<br/> Technology at  SLIIT.</p>
                     </div>
                     <div className="wrapper_second">
                         <ul className="dynamic-txts">

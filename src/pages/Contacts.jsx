@@ -12,12 +12,15 @@ export default function Contacts() {
   return (
    <Container>
     <Row>
-      <Col lg={6} className='pt-3 ps-5'>
+      <Col lg={12} className='pt-3 ps-5'>
           <h1  style={{ color: primaryColor }}>Contact me</h1>
-          <MailCard/>
+          
+      </Col>
+      <Col lg={6} className='ps-5'>
+            <MailCard/>
       </Col>
       <Col lg={6}>
-      
+            
       </Col>
     </Row>
     {/* <Row>
