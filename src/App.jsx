@@ -8,6 +8,9 @@ import Projects from "./pages/Projects"
 import Contacts from "./pages/Contacts"
 import Achive from "./pages/Achievments"
 import "./assets/css/public.css"
+
+import 'sweetalert2/src/sweetalert2.scss'
+
 function App() {
 
   return (
