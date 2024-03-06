@@ -9,11 +9,8 @@ const temp_id = import.meta.env.VITE_TEMPLATE_ID;
 const public_key = import.meta.env.VITE_PUBLIC_KEY;
 
 
-
-
 export default function MailCard() {
-
-
+  
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,7 +21,7 @@ export default function MailCard() {
         publicKey: public_key,
       })
       .then(
-        () => {
+        async () => {
           console.log('SUCCESS!');
 
            // Display success toast
@@ -41,7 +38,8 @@ export default function MailCard() {
               toast.addEventListener('mouseleave', Swal.resumeTimer);
             }
           });
-          
+          // Reset the form fields
+          form.current.reset();
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -81,9 +79,11 @@ export default function MailCard() {
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" rows={3} name="message"  required/>
       </Form.Group>
-      <Button type="submit" className='primaryBtm'>
-        Send Mail
-      </Button>
+      <div className='d-flex justify-content-end'>
+          <Button type="submit" className='primaryBtm '>
+            Send Mail
+          </Button>
+        </div>
     </Form>
   );
 }
