@@ -1,5 +1,5 @@
 import smsImage from "./assets/Images/cardImages/sms.png"
-import electImage from "./assets/images/cardImages/elect.png"
+import electImage from "./assets/images/cardImages/elect.png";
 import shilpaImage from "./assets/images/cardImages/shilpa.png"
 import unilifeImage from "./assets/images/cardImages/unilife.png"
 import hosImage from "./assets/images/cardImages/hos.png"
