@@ -14,11 +14,11 @@ export default function Contacts() {
   return (
    <Container>
     <Row>
-      <Col lg={12} className='pt-3 ps-5'>
-          <h1  style={{ color: primaryColor }}>Contact me</h1>
+      <Col lg={12} className=' ps-5'>
+          <p  style={{ color: primaryColor }} className='mainTopics' >Contact me</p>
           
       </Col>
-      <Col lg={5} className='ps-5 mt-4 pb-3'>
+      <Col lg={5} className='ps-5  pb-3'>
             <MailCard/>
       </Col>
       <Col lg={7}>

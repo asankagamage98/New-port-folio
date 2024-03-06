@@ -15,9 +15,9 @@ export default function About() {
           
           <Col lg={8} md={12} className=''>
                 
-                <Col lg={12} className='pt-3 ps-5'>
+                <Col lg={12} className=' ps-5'>
                   <div className="box1 p-4  mb-5">
-                      <h1 style={{ color: primaryColor }}>About me</h1>
+                      <p style={{ color: primaryColor }} className='mainTopics'>About me</p>
 
                       <p className='mt-3'> 
                       🚀 Dedicated Full Stack Developer with a passion for creating impactful 
