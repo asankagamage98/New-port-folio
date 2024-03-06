@@ -15,11 +15,11 @@ export default function About() {
           
           <Col lg={8} md={12} className=''>
                 
-                <Col lg={12} className=' ps-5'>
+                <div  className='mt-5 ps-5'>
                   <div className="box1 p-4  mb-5">
-                      <p style={{ color: primaryColor }} className='mainTopics'>About me</p>
+                      <p style={{ color: primaryColor,lineHeight:"40px" }} className='mainTopics' >About me</p>
 
-                      <p className='mt-3'> 
+                      <p className=''> 
                       🚀 Dedicated Full Stack Developer with a passion for creating impactful 
                       digital experiences. Armed with a BSc (Hons) degree in Information 
                       Technology from SLIIT, I've honed my skills and embraced a continuous 
@@ -42,8 +42,7 @@ export default function About() {
                         Let's connect and explore the possibilities in the world of technology! 
                       </p>
                   </div>
-                   
-                </Col>
+                </div>
                 
           </Col>
           <Col lg={4} md={12}  className='text-center'>

@@ -81,7 +81,7 @@ export default function MailCard() {
       </Form.Group>
       <div className='d-flex justify-content-end'>
           <Button type="submit" className='primaryBtm '>
-            Send Mail
+            Send
           </Button>
         </div>
     </Form>

@@ -22,7 +22,7 @@ export default function ProjectCard({acadmicProjects = ProjectList}) {
           >
             <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />
             <Card.Body
-              style={{ color: "",  fontWeight: "bolder", zIndex: "1000", backgroundColor: "#ffff" }}
+              className='cardbody'
             >
               <Card.Text className='text-center'>
                 {item.name}
@@ -36,7 +36,7 @@ export default function ProjectCard({acadmicProjects = ProjectList}) {
           >
             <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />
             <Card.Body
-              style={{ color: "",  fontWeight: "bolder", zIndex: "1000", backgroundColor: "#ffff" }}
+              className='cardbody'
             >
               <Card.Text className='text-center'>
                 {item.name}
@@ -49,9 +49,7 @@ export default function ProjectCard({acadmicProjects = ProjectList}) {
             onClick={() => handleCardClick(item)}
           >
             <Card.Img variant="top" className='' src={item.image} style={{ height: "200px" }} />
-            <Card.Body
-              style={{ color: "",  fontWeight: "bolder", zIndex: "1000", backgroundColor: "#ffff" }}
-            >
+            <Card.Body className='cardbody'>
               <Card.Text className='text-center'>
                 {item.name}
               </Card.Text>
