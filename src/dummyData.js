@@ -1,12 +1,11 @@
 import smsImage from "./assets/Images/cardImages/sms.png"
-import electImage from "./assets/images/cardImages/elect.png";
-import shilpaImage from "./assets/images/cardImages/shilpa.png"
-import unilifeImage from "./assets/images/cardImages/unilife.png"
-import hosImage from "./assets/images/cardImages/hos.png"
-import prezzImage from "./assets/images/cardImages/prezz.png"
-import nieImage from "./assets/images/cardImages/nie.png"
-import tmmImage from "./assets/images/cardImages/tmm.png"
-
+import shilpaImage from "./assets/Images/cardImages/shilpa.png"
+import unilifeImage from "./assets/Images/cardImages/unilife.png"
+import hosImage from "./assets/Images/cardImages/hos.png"
+import prezzImage from "./assets/Images/cardImages/prezz.png"
+import nieImage from "./assets/Images/cardImages/nie.png"
+import tmmImage from "./assets/Images/cardImages/tmm.png"
+import puff from "./assets/Images/cardImages/electro.png"
 
 
 export const ProjectList =[
@@ -29,7 +28,7 @@ export const ProjectList =[
         id:"2",
         name: "Electrogird system",
         type:"academic",
-        image: electImage,
+        image: puff,
         technology:"Java",
         tools:"Eclips, Postman",
         gitLink:{
