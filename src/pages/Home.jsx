@@ -6,12 +6,18 @@ import img from "../assets/Images/asanka1.png";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import {useNavigate} from 'react-router-dom';
+
 
 const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
-
-
 export default function Home() {
+
+    const navigate = useNavigate();
+
+    const  onClickBtn =(e) => {
+        navigate(`/viewCv`)
+      }
 
   return (
     <Container>
@@ -32,7 +38,7 @@ export default function Home() {
                         </ul>
                     </div>
                     <div className=''>
-                         <button type="button " className='primaryBtm '>View CV</button>
+                         <button type="button " onClick={onClickBtn} className='primaryBtm'>View CV</button>
                     </div>
                 </div>
             </Col> 

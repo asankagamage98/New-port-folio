@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState}from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';;
@@ -7,7 +7,7 @@ import "../../src/assets/css/navbar.css";
 import SocialIcons from './SocialIcons';
 import {useNavigate} from 'react-router-dom';
 
-
+const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
 export default function NavBar() {
 const navigate = useNavigate();
@@ -27,6 +27,8 @@ const  onClickCont =(e) => {
 const  onClickAchiev =(e) => {
   navigate(`/achieve`)
 }
+
+
   return (
     <>
       <Navbar bg="" expand="md" variant="" className='row navbar m-0 '>
@@ -37,7 +39,7 @@ const  onClickAchiev =(e) => {
           </div>
           <Navbar.Collapse id="navbar" className='justify-content-center col-lg-6   '>
             <Nav className="ms-auto gap-3 ">
-              <Nav.Link onClick={onClickHome} ><button type="button" size="" className='btn'>Home</button></Nav.Link>
+              <Nav.Link onClick={onClickHome} ><button type="button" size=""  className='btn'   >Home</button></Nav.Link>
               <Nav.Link onClick={onClickAbout}><button type="button" size="" className='btn'>About</button></Nav.Link>
               <Nav.Link onClick={onClickPro} ><button type="button" size="" className='btn'>Projects</button></Nav.Link>
               <Nav.Link onClick={onClickAchiev} ><button type="button" size="" className='btn'>Achievements</button></Nav.Link>

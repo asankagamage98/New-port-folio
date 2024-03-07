@@ -10,6 +10,7 @@ import Achive from "./pages/Achievments"
 import "./assets/css/public.css"
 
 import 'sweetalert2/src/sweetalert2.scss'
+import PdfCv from "./components/cards/PdfCv"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
          <Route path="/projects" element={<Projects/>}/>
          <Route path="/Contacts" element={<Contacts/>}/>
          <Route path="/achieve" element={<Achive/>}/>
+         <Route path="/viewCv" element={<PdfCv/>}/>
        </Routes>   
      </div>
   )
