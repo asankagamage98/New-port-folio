@@ -10,14 +10,14 @@ export default function PdfCv() {
       <iframe
        src={myCv}
         title="testPdf"
-        style={{
-          position: 'relative',
-          width: '100%',
-          height: '100vh',
+        // style={{
+        //   position: 'relative',
+        //   width: '100%',
+        //   height: '100vh',
        
-          marginRight: '-10px',
-          marginBottom: '-10px',
-        }}
+        //   marginRight: '-10px',
+        //   marginBottom: '-10px',
+        // }}
       />
     </div>
     );
