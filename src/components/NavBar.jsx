@@ -7,7 +7,7 @@ import "../../src/assets/css/navbar.css";
 import SocialIcons from './SocialIcons';
 import {useNavigate} from 'react-router-dom';
 
-const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
+// const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
 export default function NavBar() {
 const navigate = useNavigate();

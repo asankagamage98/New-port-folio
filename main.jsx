@@ -10,7 +10,7 @@ import App from "./src/App";
 // )
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter>  
       <App />
   </BrowserRouter>,
    document.getElementById("app")

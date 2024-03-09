@@ -23,7 +23,7 @@ export default function ProjectModel(props) {
             </Modal.Header>
             <Modal.Body>
                 <Row>
-                     <img src={props.item?.image} alt="" srcset="" style={{ height:"200px", borderRadius:"30px" }}/>
+                     <img src={props.item?.image} alt="" style={{ height:"200px", borderRadius:"30px" }}/>
                 </Row>
                 <Row>
                     <Col lg={12}>

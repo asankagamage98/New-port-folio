@@ -5,7 +5,11 @@ import Container from 'react-bootstrap/Container';
 import img from "../assets/Images/asanka2.png";
 import "../assets/css/public.css"
 
+
+
 const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
+
+
 
 
 export default function About() {
@@ -16,10 +20,11 @@ export default function About() {
           <Col lg={8} md={12} className=''>
                 
                 <div  className='mt-5 ps-5'>
-                  <div className="box1 p-4  mb-5">
+                
+                  <div className="box1 p-4  mb-5" >
                       <p style={{ color: primaryColor,lineHeight:"40px" }} className='mainTopics' >About me</p>
 
-                      <p className=''> 
+                      <p className=''   > 
                       🚀 Dedicated Full Stack Developer with a passion for creating impactful 
                       digital experiences. Armed with a BSc (Hons) degree in Information 
                       Technology from SLIIT, I've honed my skills and embraced a continuous 
@@ -42,6 +47,7 @@ export default function About() {
                         Let's connect and explore the possibilities in the world of technology! 
                       </p>
                   </div>
+                  
                 </div>
                 
           </Col>
