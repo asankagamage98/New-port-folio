@@ -52,7 +52,7 @@ const containervarints ={
                     <div  className='titles d-flex row'>
                         
                             <p className='p1'> Hello, It's me</p>
-                            <p className= 'p2'>Asanka Gamage</p>
+                            <p className= 'p2' >Asanka Gamage</p>
                             <p  className= 'p3' >And I'am a  <span style={{ color: primaryColor}}>FullStack Developer</span> </p>
                        
                         <p className='p4'>With a graduated BSc.(Hons) Information Technology  Specializing  Information Technology at  SLIIT.</p>

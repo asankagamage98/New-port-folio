@@ -33,8 +33,8 @@ const  onClickAchiev =(e) => {
     <>
       <Navbar bg="" expand="md" variant="" className='row navbar m-0 '>
         <Container fluid>
-          <div  className='col-lg-3'>
-          <Nav.Link onClick={onClickHome} ><Navbar.Brand    className='' style={{ color:primaryColor }}><b>PortFolio.</b></Navbar.Brand> </Nav.Link>
+          <div  className='col-lg-3 '>
+          <Nav.Link onClick={onClickHome} ><Navbar.Brand className=''  style={{ color:primaryColor,fontSize:"25px"}}><b>PortFolio</b></Navbar.Brand> </Nav.Link>
             <Navbar.Toggle aria-controls="navbar" />
           </div>
           <Navbar.Collapse id="navbar" className='justify-content-center col-lg-6  '>
