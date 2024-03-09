@@ -6,7 +6,7 @@ import prezzImage from "./assets/Images/cardImages/prezz.png"
 import nieImage from "./assets/Images/cardImages/nie.png"
 import tmmImage from "./assets/Images/cardImages/tmm.png"
 import puff from "./assets/Images/cardImages/electro.png"
-
+import weather from "./assets/Images/cardImages/weather.jpeg"
 
 export const ProjectList =[
     
@@ -15,7 +15,7 @@ export const ProjectList =[
         name: "School Management System",
         type:"academic",
         image: smsImage,
-        technology:"VueJS and NodeJS",
+        technology:"VueJS , NodeJS,MongoDb",
         tools:"VS Code, Postman",
         gitLink:{
           linkone:"https://github.com/asankagamage98/iGradePlus-sms-frontend.git",
@@ -43,7 +43,7 @@ export const ProjectList =[
         name: "Education institute management system",
         type:"academic",
         image: shilpaImage,
-        technology:"VueJS,Laravel",
+        technology:"VueJS,Laravel,MySql",
         tools:"VS Code, Postman",
         gitLink:{
           linkone:"https://github.com/asankagamage98/Shilpa-eims-frontend-employee-",
@@ -85,7 +85,7 @@ export const ProjectList =[
         name: " E-channeling system ",
         type:"academic",
         image: hosImage,
-        technology:"HTML,CSS,Java",
+        technology:"HTML,CSS,Java,MySql",
         tools:"VS Code",
         gitLink:{
           linkone:"https://github.com/asankagamage98/second_year_1stsem_project.git",
@@ -108,12 +108,15 @@ export const ProjectList =[
         description:
           "In our first-year second-semester project, a team of five members collaborated to develop a dynamic platform using HTML, CSS, and PHP. This project revolves around creating an online presentation tool, offering users the capability to generate presentations seamlessly. Through the integration of various web technologies, we aimed to provide an intuitive and user-friendly experience. With a focus on teamwork and leveraging multiple programming languages, our goal was to develop a robust system that empowers users to craft compelling presentations effortlessly.",
       },
+
+
+      //other projects
       {
         id:"8",
        name: "Training Material Management System",
        type:"industry",
        image: tmmImage,
-       technology:"ReactJS,Laravel",
+       technology:"ReactJS,Laravel,MySql",
        tools:"VS Code,Postman,Selenium",
        gitLink:{
         linkone:"",
@@ -122,4 +125,19 @@ export const ProjectList =[
        description:
          "The Training Material Management System (TMMS) is a user-friendly platform designed to assist new trainees in gaining the necessary knowledge and skills for their roles within the company. Accessible from any web-enabled device, TMMS offers resources such as documents, guides, videos, notices, and policies tailored to each trainee's division. Users can also take practice tests to reinforce learning and identify areas for improvement. System administrators have full control over user management and content, ensuring information is up-to-date and relevant. Overall, TMMS aims to empower new trainees to succeed in their roles by providing comprehensive and accessible training resources.",
      },
+
+     {
+      id:"9",
+     name: "Weather Api Management",
+     type:"industry",
+     image: weather,
+     technology:"NodeJs,MongoDB",
+     tools:"VS Code,Postman",
+     gitLink:{
+      linkone:"https://github.com/asankagamage98/Node-Weather-API-Management.git",
+      linktwo:"https://assessment-code-scale.vercel.app/"
+    },
+     description:
+       "The Weather Report API is a Node.js application designed to store users' emails and locations, providing automatic hourly weather reports every 3 hours. It leverages MongoDB for data storage, Mongoose for schema definition, and the OpenWeatherMap API for fetching weather data. The application includes routes for storing user details, updating locations, and retrieving weather data for a specific day. Additionally, it utilizes Nodemailer and Gmail to send periodic weather reports to users.",
+   },
 ]
