@@ -1,4 +1,4 @@
-import React ,{useState}from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';;
@@ -7,7 +7,7 @@ import "../../src/assets/css/navbar.css";
 import SocialIcons from './SocialIcons';
 import {useNavigate} from 'react-router-dom';
 
-// const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
+const primaryColor = import.meta.env.VITE_PRIMARY_COLOR;
 
 export default function NavBar() {
 const navigate = useNavigate();
@@ -33,11 +33,11 @@ const  onClickAchiev =(e) => {
     <>
       <Navbar bg="" expand="md" variant="" className='row navbar m-0 '>
         <Container fluid>
-          <div  className='col-lg-3  '>
-            <Navbar.Brand href="#home" ></Navbar.Brand> 
+          <div  className='col-lg-3'>
+          <Nav.Link onClick={onClickHome} ><Navbar.Brand    className='' style={{ color:primaryColor }}><b>PortFolio.</b></Navbar.Brand> </Nav.Link>
             <Navbar.Toggle aria-controls="navbar" />
           </div>
-          <Navbar.Collapse id="navbar" className='justify-content-center col-lg-6   '>
+          <Navbar.Collapse id="navbar" className='justify-content-center col-lg-6  '>
             <Nav className="ms-auto gap-3 ">
               <Nav.Link onClick={onClickHome} ><button type="button" size=""  className='btn'   >Home</button></Nav.Link>
               <Nav.Link onClick={onClickAbout}><button type="button" size="" className='btn'>About</button></Nav.Link>
@@ -46,7 +46,7 @@ const  onClickAchiev =(e) => {
               <Nav.Link onClick={onClickCont}><button type="button" size="" className='btn'>Contacts</button></Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <div className='col-lg-3  d-flex justify-content-center'>
+          <div className='col-lg-3 d-flex justify-content-center'>
                 <SocialIcons />        
           </div>
         </Container>

@@ -55,8 +55,8 @@ const containervarints ={
                             <p className= 'p2'>Asanka Gamage</p>
                             <p  className= 'p3' >And I'am a  <span style={{ color: primaryColor}}>FullStack Developer</span> </p>
                        
-                        <p className='p4'>Graduated BSc.(Hons) Information Technology  Specializing  Information<br/> Technology at  SLIIT.</p>
-                    </div>
+                        <p className='p4'>With a graduated BSc.(Hons) Information Technology  Specializing  Information Technology at  SLIIT.</p>
+                    </div>                                                                                                      
                     <div className="wrapper_second">
                         <ul className="dynamic-txts">
                         <li><span>Mobile app Developer</span></li>
