@@ -14,17 +14,16 @@ import PdfCv from "./components/cards/PdfCv"
 
 //famer motion
 import { motion } from "framer-motion"
-
+import Particale from "./pages/Particale"
 
 function App() {
-
-
   return (
-    <div className="row m-0 p-0 vh-100">
-      
+    <div className="row m-0 p-0 vh-100 " >
+      <Particale/>
       <motion.div initial={{ y: -250 }} animate={{ y: -10 }} className="fixed pt-2">
         <NavBar />
       </motion.div>
+      
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
@@ -32,6 +31,7 @@ function App() {
               <Route path="/Contacts" element={<Contacts/>}/>
               <Route path="/achieve" element={<Achive/>}/>
               <Route path="/viewCv" element={<PdfCv/>}/>
+              <Route path="/partical" element={<Particale/>}/>
             </Routes> 
      </div>
   )
