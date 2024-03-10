@@ -45,7 +45,7 @@ const containervarints ={
             exit="exit"
             className="d-flex"
         >
-        <Row>
+        <Row className=''>
             <Col className=''  lg={7} md={12}>
                 <div className=' ps-5 d-flex row'>
             
@@ -72,7 +72,7 @@ const containervarints ={
                    
                 </div>
             </Col> 
-             <Col className='text-center' lg={5} md={12}>
+             <Col className='text-center ' lg={5} md={12}>
                 <div className='zoom-wrapper p-0 m-0 d-none d-sm-block'>
                     <img src={img}  className=' background-image ' />
                 </div>

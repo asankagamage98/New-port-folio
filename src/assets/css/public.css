@@ -50,7 +50,7 @@
 
 .background-image {
   
-    margin-top:63px;
+    padding-top:55px;
     bottom:0px;
     right:0px;
    
@@ -65,7 +65,7 @@
 }
 
 .about-image {
-    margin-top: 15px;
+    margin-top: 7px;
     width:350px;
     bottom:0px;
     right:0px;
@@ -195,7 +195,8 @@
 
 
 .projectCrads{
-  max-height:410px;
+  /* max-height:410px; */
+  max-height: 100%;
   overflow-y: auto;
 }
 

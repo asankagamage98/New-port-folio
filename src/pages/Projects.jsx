@@ -53,7 +53,7 @@ export default function Projects() {
           </Col>
       </Row>
       <Row className='pb-3 vh-100 projectCrads' lg={12} >
-        <Col className='d-flex justify-content-center gap-4 flex-wrap pt-2   ' >
+        <Col className='d-flex justify-content-center gap-4 flex-wrap pt-2    ' >
             <ProjectCard acadmicProjects={acadmicProjects}/>
         </Col> 
       </Row>

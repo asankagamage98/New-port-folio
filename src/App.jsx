@@ -20,9 +20,9 @@ function App() {
 
 
   return (
-    <div className="row m-0 p-0">
+    <div className="row m-0 p-0 vh-100">
       
-      <motion.div initial={{ y: -250 }} animate={{ y: -10 }} className="fixed">
+      <motion.div initial={{ y: -250 }} animate={{ y: -10 }} className="fixed pt-2">
         <NavBar />
       </motion.div>
             <Routes>
