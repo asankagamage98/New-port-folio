@@ -1,5 +1,3 @@
-
-
 import { Routes, Route } from "react-router-dom"
 import Home from './pages/Home'
 import NavBar from './components/NavBar'
@@ -31,7 +29,6 @@ function App() {
               <Route path="/Contacts" element={<Contacts/>}/>
               <Route path="/achieve" element={<Achive/>}/>
               <Route path="/viewCv" element={<PdfCv/>}/>
-              <Route path="/partical" element={<Particale/>}/>
             </Routes> 
      </div>
   )

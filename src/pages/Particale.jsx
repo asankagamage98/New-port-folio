@@ -3,10 +3,9 @@ import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
-
 export default function Particale() {const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
+// this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
