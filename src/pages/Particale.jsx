@@ -49,14 +49,14 @@ export default function Particale() {const [init, setInit] = useState(false);
           zIndex: -1
         },
         detectRetina: true,
-        duration: 0,
+        durationOn: 0,
         fpsLimit: 120,
         interactivity: {
           detectsOn: "window",
           events: {
             onClick: {
               enable: true,
-              mode: []
+              mode: ["push"]
             },
             onDiv: {
               selectors: [],
