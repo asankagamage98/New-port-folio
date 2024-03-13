@@ -20,7 +20,7 @@ function App() {
     <div className="row m-0 p-0 vh-100">
       
       <motion.div initial={{ y: -250 }} animate={{ y: -10 }} className="fixed pt-2 m-0">
-        <NavBar />
+        <NavBar/>
       </motion.div>
       <Particale  className='' />
             <Routes>
