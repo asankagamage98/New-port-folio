@@ -7,7 +7,9 @@ import nieImage from "./assets/Images/cardImages/nie.png"
 import tmmImage from "./assets/Images/cardImages/tmm.png"
 import puff from "./assets/Images/cardImages/electro.png"
 import weather from "./assets/Images/cardImages/weather.jpeg"
-
+import note from "./assets/Images/cardImages/note.jpg"
+import news from "./assets/Images/cardImages/news.jpg"
+import device from "./assets/Images/cardImages/device.jpg"
 export const ProjectList =[
     
       {
@@ -128,7 +130,7 @@ export const ProjectList =[
 
      {
       id:"9",
-     name: "Weather Api Management",
+     name: "Weather Api Management System",
      type:"industry",
      image: weather,
      technology:"NodeJs,MongoDB",
@@ -140,4 +142,46 @@ export const ProjectList =[
      description:
        "The Weather Report API is a Node.js application designed to store users' emails and locations, providing automatic hourly weather reports every 3 hours. It leverages MongoDB for data storage, Mongoose for schema definition, and the OpenWeatherMap API for fetching weather data. The application includes routes for storing user details, updating locations, and retrieving weather data for a specific day. Additionally, it utilizes Nodemailer and Gmail to send periodic weather reports to users.",
    },
+   {
+    id:"10",
+   name: "My Note Management System",
+   type:"industry",
+   image:note,
+   technology:"NodeJs,MongoDB,ReactJS,Tailwindcss",
+   tools:"VS Code,Postman",
+   gitLink:{
+    linkone:"https://github.com/asankagamage98/Note-management-frontend.git",
+    linktwo:"https://github.com/asankagamage98/Note-management-backend.git"
+  },
+   description:
+     "This is a simple web application that allows users to manage their notes. Users can create, view, update, and delete notes through an intuitive user interface. The application consists of frontend and backend components.",
+ },
+ {
+  id:"101",
+ name: "News Management System(News WebApp)",
+ type:"industry",
+ image:news,
+ technology:"NodeJs,MongoDB,NextJS,Tailwindcss",
+ tools:"VS Code,Postman",
+ gitLink:{
+  linkone:"https://github.com/asankagamage98/news-webApp.git",
+  linktwo:"https://github.com/asankagamage98/News-Management-Backend.git"
+},
+ description:
+   "NEWS WEBAPP: Next.js & Tailwind CSS power secure admin dashboards for article(news) management. Admin can manage the news he can edit, delete, and add news from the admin dashboard. Non-registered users can view articale.Node.js (Express.js) backend with MongoDB. Mobile-responsive, with CRUD operations. ",
+},
+{
+  id:"101",
+ name: "Location-Based Device Control System",
+ type:"industry",
+ image:device,
+ technology:"NodeJs,MongoDB,ReactJS,Tailwindcss",
+ tools:"VS Code,Postman",
+ gitLink:{
+  linkone:"https://github.com/asankagamage98/location-device-manager-frontend.git",
+  linktwo:"https://github.com/asankagamage98/location-device-manager-backend.git"
+},
+ description:
+   "The project, (Location-Based Device Control), integrates a React-based front-end and a Node.js/Express.js backend to manage locations and associated devices. The React interface offers intuitive forms and interactive components for users to view, add, update, and remove locations and devices. Meanwhile, the Node.js backend provides a RESTful API for CRUD operations on this data, with MongoDB serving as the database to store location and device information.",
+},
 ]

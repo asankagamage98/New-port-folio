@@ -48,7 +48,7 @@ export default function Projects() {
         <Col lg={12}>
             <div className='text-center pb-3'>
                 <button type="button " onClick={btnHandlerAc} className='primaryBtm '>Acadamic</button>
-                <button type="button " onClick={btnHandlerIn} className='primaryBtm ms-2'>Other</button>
+                <button type="button " onClick={btnHandlerIn} className='primaryBtm ms-2'>Others</button>
             </div>
           </Col>
       </Row>
