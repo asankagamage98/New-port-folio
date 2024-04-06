@@ -40,7 +40,7 @@ export default function ProjectModel(props) {
                 <Row>
                    <Col lg={4} className='mt-2'>
                       <h5>Use Technologies</h5>
-                      <p>
+                      <p className=''>
                          {props.item?.technology}
                       </p>
                    </Col>

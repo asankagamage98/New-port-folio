@@ -147,7 +147,7 @@ export const ProjectList =[
    name: "My Note Management System",
    type:"industry",
    image:note,
-   technology:"NodeJs,MongoDB,ReactJS,Tailwindcss",
+   technology:"NodeJs,MongoDB,ReactJS",
    tools:"VS Code,Postman",
    gitLink:{
     linkone:"https://github.com/asankagamage98/Note-management-frontend.git",
@@ -161,7 +161,7 @@ export const ProjectList =[
  name: "News Management System(News WebApp)",
  type:"industry",
  image:news,
- technology:"NodeJs,MongoDB,NextJS,Tailwindcss",
+ technology:"NodeJs,MongoDB,NextJS",
  tools:"VS Code,Postman",
  gitLink:{
   linkone:"https://github.com/asankagamage98/news-webApp.git",
@@ -175,7 +175,7 @@ export const ProjectList =[
  name: "Location-Based Device Control System",
  type:"industry",
  image:device,
- technology:"NodeJs,MongoDB,ReactJS,Tailwindcss",
+ technology:"NodeJs,MongoDB,ReactJS",
  tools:"VS Code,Postman",
  gitLink:{
   linkone:"https://github.com/asankagamage98/location-device-manager-frontend.git",
