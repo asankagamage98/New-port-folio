@@ -157,7 +157,7 @@ export const ProjectList =[
      "This is a simple web application that allows users to manage their notes. Users can create, view, update, and delete notes through an intuitive user interface. The application consists of frontend and backend components.",
  },
  {
-  id:"101",
+  id:"11",
  name: "News Management System(News WebApp)",
  type:"industry",
  image:news,
@@ -171,7 +171,7 @@ export const ProjectList =[
    "NEWS WEBAPP: Next.js & Tailwind CSS power secure admin dashboards for article(news) management. Admin can manage the news he can edit, delete, and add news from the admin dashboard. Non-registered users can view articale.Node.js (Express.js) backend with MongoDB. Mobile-responsive, with CRUD operations. ",
 },
 {
-  id:"101",
+  id:"12",
  name: "Location-Based Device Control System",
  type:"industry",
  image:device,
